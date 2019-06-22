@@ -32,6 +32,10 @@ public class MainController {
 		return "Working fine... go on!!!";
 	}
 	
+	/*
+	 * @Transaction --->> main tutorial project
+	 * understanding transaction management in spring
+	 */
 	@Transactional(rollbackFor=NumberFormatException.class)
 	@RequestMapping("/setData")
 	public String setData(){

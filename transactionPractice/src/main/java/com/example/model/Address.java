@@ -10,6 +10,7 @@ public class Address {
 	private int id;
 	private String details;
 	private int post;
+	
 	public int getId() {
 		return id;
 	}
