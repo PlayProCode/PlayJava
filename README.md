@@ -11,5 +11,7 @@
 #itemService -> () a service to get the price of an item using RestTemplate. The url is provided by priceService application         
 #priceService -> () a spring boot application which exposes a service to provide the price of an item.
 
+#springBootWithMongoDB -> () spring boot with mongoDb (CRUD example)
+
 #transactionPractice -> () for transaction practice in spring
 
