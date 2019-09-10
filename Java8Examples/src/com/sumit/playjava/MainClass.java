@@ -1,10 +1,13 @@
 package com.sumit.playjava;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import com.sumit.playjava.defaultMethod.ImplementInterfaceWithDefaultMethod;
@@ -109,10 +112,43 @@ public class MainClass {
 		
 		//5.sorted: gives sorted data
 		Arrays.asList("one","two","three","one","four","one","two","seven")
-			.stream().sorted()
-					.forEach(System.out::println);
+		.stream().sorted()
+				.forEach(System.out::println);
 		System.out.println("=================================================");
-	
+		
+		/***
+		 * terminal operationd:
+		 * collect, count, reduce, forEach & max.
+		 */
+		
+		//1.collect: it collects the data of stream into container such as collection.
+		HashSet<String> hs=Arrays.asList("one","two","three","one","four","one","two","seven")
+			.stream().map(p -> p+" "+Math.random())
+                .collect(Collectors.toCollection(HashSet::new));
+		
+		//2.count: it counts the data in stream
+		long dataCount=Arrays.asList("one","two","three","one","four","one","two","seven")
+				.stream().count();
+		System.out.println(dataCount);
+		System.out.println("=================================================");
+		
+		//3.reduce: it takes two arguments and performs operation on it
+		String[] arr={"one","two","seven"};
+		Optional<String> str=Arrays.stream(arr)
+					.reduce((str1,str2) -> str1+"-"+str2);
+		System.out.println(str.get());
+		System.out.println("=================================================");
+		
+		//3.forEach: performs operation on each data
+		Arrays.asList("one","two","three","one","four","one","two","seven")
+			.stream().forEach(System.out::println);
+		System.out.println("=================================================");
+		
+		//4.max: finds the maximum data
+		Optional<Integer> maxdata=Arrays.asList(3,5,7,2,1,6)
+					.stream().max(Integer::compare);
+		System.out.println("Maximum data is: "+maxdata.get());
+		System.out.println("=================================================");
 		
 	}
 
