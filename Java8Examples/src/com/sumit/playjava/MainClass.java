@@ -31,6 +31,10 @@ public class MainClass {
 		//No need to create object of class implementing it.
 		InterfaceWithStaticMethod.getStaticData();
 		System.out.println("=================================================");
+	
+		
+		
+		
 		
 		
 		/**
@@ -79,6 +83,10 @@ public class MainClass {
 		};
 		System.out.println(supplier.get());
 		System.out.println("=================================================");
+	
+		
+		
+		
 		
 		
 		/**
@@ -115,6 +123,10 @@ public class MainClass {
 		.stream().sorted()
 				.forEach(System.out::println);
 		System.out.println("=================================================");
+		
+		
+		
+		
 		
 		/***
 		 * terminal operationd:
