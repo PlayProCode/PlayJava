@@ -11,6 +11,9 @@
 #Item and Price Service -> () Get the data of price using RestTemplate made in itemService and the price is provided by the RestController made in PriceService.
 
 #itemService -> () a service to get the price of an item using RestTemplate. The url is provided by priceService application.         
+
+#many-to-many-demo -> () many to many relationship in jpa
+
 #priceService -> () a spring boot application which exposes a service to provide the price of an item.
 
 #springBootEmbeddedUsingMongoDB -> () spring boot using mongodb to show the mapping in model classes.         
