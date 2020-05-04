@@ -9,6 +9,8 @@
 
 #duaDbProject -> () for intigrating two different database in one project.                                      
 
+#exception-framework -> () Exception Handling Framework. Create a custom exception and handle the exception when thrown.                                      
+
 #Item and Price Service -> () Get the data of price using RestTemplate made in itemService and the price is provided by the RestController made in PriceService.
 
 #itemService -> () a service to get the price of an item using RestTemplate. The url is provided by priceService application.         
