@@ -9,6 +9,8 @@
 
 #duaDbProject -> () for intigrating two different database in one project.                                      
 
+#enablecache-demo -> () Enable cache using spring framework
+
 #exception-framework -> () Exception Handling Framework. Create a custom exception and handle the exception when thrown.                                      
 
 #Item and Price Service -> () Get the data of price using RestTemplate made in itemService and the price is provided by the RestController made in PriceService.
