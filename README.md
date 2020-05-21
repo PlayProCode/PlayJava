@@ -21,6 +21,8 @@
 
 #priceService -> () a spring boot application which exposes a service to provide the price of an item.
 
+#scheduler-sample -> () create a scheduler job in spring
+
 #singleton-prototype -> () a demo to inject prototype bean in a singleton in spring
 
 #springBootEmbeddedUsingMongoDB -> () spring boot using mongodb to show the mapping in model classes.         
