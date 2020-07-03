@@ -19,6 +19,9 @@
 
 #many-to-many-demo -> () many to many relationship in jpa
 
+#my-app -> () Spring cloud load balancing using ribbon
+#ribbon-balancer -> () Spring cloud load balancing using ribbon
+
 #priceService -> () a spring boot application which exposes a service to provide the price of an item.
 
 #scheduler-sample -> () create a scheduler job in spring
