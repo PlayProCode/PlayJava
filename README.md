@@ -9,7 +9,11 @@
 
 #duaDbProject -> () for intigrating two different database in one project.                                      
 
-#enablecache-demo -> () Enable cache using spring framework
+#enablecache-demo -> () Enable cache using spring framework.
+
+#eureka-registry-demo -> () Create a registry on eureka service.
+
+#eureka-service-demo -> () Create a eureka service for service registry.
 
 #exception-framework -> () Exception Handling Framework. Create a custom exception and handle the exception when thrown.                                      
 
