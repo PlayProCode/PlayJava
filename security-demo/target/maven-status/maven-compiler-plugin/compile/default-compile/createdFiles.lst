@@ -1,0 +1,6 @@
+com\example\securitydemo\config\Config.class
+com\example\securitydemo\config\SecurityConfig.class
+com\example\securitydemo\service\UserService.class
+com\example\securitydemo\controller\SecurityHome.class
+com\example\securitydemo\controller\User.class
+com\example\securitydemo\SecurityDemoApplication.class
